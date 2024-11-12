@@ -15,6 +15,7 @@ steps:
   - run
   - deploy
   - sample-python
-  - --image asia-northeast1-docker.pkg.dev/android-picture-1816c/sample-python
+  #- --image asia-northeast1-docker.pkg.dev/android-picture-1816c/sample-python
+  - --source=.
 options:
  logging: CLOUD_LOGGING_ONLY
