@@ -18,7 +18,6 @@ steps:
   - --region=asia-northeast1
   - --trigger-http
   - --allow-unauthenticated
-  - --runtime=python312
   #- --image asia-northeast1-docker.pkg.dev/android-picture-1816c/sample-python
   - --source=.
 options:
