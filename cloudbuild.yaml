@@ -1,14 +1,14 @@
 projectId: android-picture-1816c
 steps:
-- name: 'gcr.io/k8s-skaffold/pack'
-  entrypoint: pack
-  args:
-  - build
-  - asia-northeast1-docker.pkg.dev/android-picture-1816c/sample-python
-  - --builder
-  - gcr.io/buildpacks/builder:latest
-  - --network
-  - cloudbuild
+#- name: 'gcr.io/k8s-skaffold/pack'
+#  entrypoint: pack
+#  args:
+#  - build
+#  - asia-northeast1-docker.pkg.dev/android-picture-1816c/sample-python
+#  - --builder
+#  - gcr.io/buildpacks/builder:latest
+#  - --network
+#  - cloudbuild
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: gcloud
   args:
