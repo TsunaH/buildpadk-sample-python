@@ -16,7 +16,6 @@ steps:
   - deploy
   - sample-python
   - --region=asia-northeast1
-  - --trigger-http
   - --allow-unauthenticated
   #- --image asia-northeast1-docker.pkg.dev/android-picture-1816c/sample-python
   - --source=.
